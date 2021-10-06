@@ -1,0 +1,189 @@
+{
+  "contractName": "BridgeEth",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/BridgeEth.sol\":\"BridgeEth\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/BridgeEth.sol\":{\"keccak256\":\"0x485e5ba278c34c3ffcb93b0e10f4399cd5651d0ada2ec3e4bd51d81755f4756b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://359ec2a60e5bd53aff62ded99de3b6792662e63068857827b86f6ca3e0298a2f\",\"dweb:/ipfs/Qmbc3kKFyP1Nu49s1qtfYd2ncHP67ATJcD6Fp7ow5NJdJq\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d613bc3e1845d7ce7303f7d3b92b0c6481cc02a600ae518324a0e81697d6dadd64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d613bc3e1845d7ce7303f7d3b92b0c6481cc02a600ae518324a0e81697d6dadd64736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:51:6:-:0;;;89:26;;;;;;;;;;66:51;;;;;;",
+  "deployedSourceMap": "66:51:6:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract BridgeEth {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Volumes/APPLE HDD/reactprojects/ponte/contracts/BridgeEth.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/BridgeEth.sol",
+    "exportedSymbols": {
+      "BridgeEth": [
+        783
+      ]
+    },
+    "id": 784,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 778,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 783,
+        "linearizedBaseContracts": [
+          783
+        ],
+        "name": "BridgeEth",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 781,
+              "nodeType": "Block",
+              "src": "110:5:6",
+              "statements": []
+            },
+            "id": 782,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 779,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:6"
+            },
+            "returnParameters": {
+              "id": 780,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:6"
+            },
+            "scope": 783,
+            "src": "89:26:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 784,
+        "src": "66:51:6"
+      }
+    ],
+    "src": "32:86:6"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/BridgeEth.sol",
+    "exportedSymbols": {
+      "BridgeEth": [
+        783
+      ]
+    },
+    "id": 784,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 778,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 783,
+        "linearizedBaseContracts": [
+          783
+        ],
+        "name": "BridgeEth",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 781,
+              "nodeType": "Block",
+              "src": "110:5:6",
+              "statements": []
+            },
+            "id": 782,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 779,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:6"
+            },
+            "returnParameters": {
+              "id": 780,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:6"
+            },
+            "scope": 783,
+            "src": "89:26:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 784,
+        "src": "66:51:6"
+      }
+    ],
+    "src": "32:86:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-06T12:03:04.371Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

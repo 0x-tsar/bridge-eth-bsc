@@ -1,0 +1,189 @@
+{
+  "contractName": "BridgeBsc",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/BridgeBsc.sol\":\"BridgeBsc\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/BridgeBsc.sol\":{\"keccak256\":\"0x81c63e5c8c13e919ed5d19706843d6f6639bb6ba6e37c9cc2339fd635896f9c8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://13ac1f571184cdce70f0bbbe2718230e501f967e40826caa69a7c839fbb605d6\",\"dweb:/ipfs/QmNjjKsJ3h5ktEcVmcRJqSU5XE5pWTx9HMXKBBUFYpeUwm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212208c47ed580793b8486f692c1d63d72c9a3eb16d662e2009778a06d6999bd55f6364736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212208c47ed580793b8486f692c1d63d72c9a3eb16d662e2009778a06d6999bd55f6364736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:51:5:-:0;;;89:26;;;;;;;;;;66:51;;;;;;",
+  "deployedSourceMap": "66:51:5:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract BridgeBsc {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Volumes/APPLE HDD/reactprojects/ponte/contracts/BridgeBsc.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/BridgeBsc.sol",
+    "exportedSymbols": {
+      "BridgeBsc": [
+        776
+      ]
+    },
+    "id": 777,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 771,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 776,
+        "linearizedBaseContracts": [
+          776
+        ],
+        "name": "BridgeBsc",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 774,
+              "nodeType": "Block",
+              "src": "110:5:5",
+              "statements": []
+            },
+            "id": 775,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 772,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:5"
+            },
+            "returnParameters": {
+              "id": 773,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:5"
+            },
+            "scope": 776,
+            "src": "89:26:5",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 777,
+        "src": "66:51:5"
+      }
+    ],
+    "src": "32:86:5"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/BridgeBsc.sol",
+    "exportedSymbols": {
+      "BridgeBsc": [
+        776
+      ]
+    },
+    "id": 777,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 771,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 776,
+        "linearizedBaseContracts": [
+          776
+        ],
+        "name": "BridgeBsc",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 774,
+              "nodeType": "Block",
+              "src": "110:5:5",
+              "statements": []
+            },
+            "id": 775,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 772,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:5"
+            },
+            "returnParameters": {
+              "id": 773,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:5"
+            },
+            "scope": 776,
+            "src": "89:26:5",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 777,
+        "src": "66:51:5"
+      }
+    ],
+    "src": "32:86:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-10-06T12:36:18.331Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
